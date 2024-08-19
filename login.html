@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - Educational Organization</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Login to EduOrg</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="login.html">Login</a></li>
+                <li><a href="student-info.html">Student Info</a></li>
+                <li><a href="parent-info.html">Parent Info</a></li>
+                <li><button onclick="showSignup()">Signup</button></li>
+                <li><button onclick="showAbout()">About Us</button></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <section id="content">
+            <h2>Login</h2>
+            <form>
+                <label for="username">Username:</label>
+                <input type="text" id="username" name="username"><br><br>
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password"><br><br>
+                <input type="submit" value="Login">
+            </form>
+        </section>
+    </main>
+    
+    <footer>
+        <p>&copy; 2024 EduOrg. All Rights Reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
